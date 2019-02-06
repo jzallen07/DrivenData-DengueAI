@@ -9,7 +9,7 @@
 I recently participated in a competition hosted by ([DrivenData](https://www.drivendata.org/)) with the goal of predicting the case level of  [Dengue fever](https://en.wikipedia.org/wiki/Dengue_fever).  Dengue is a mosquito-borne, generally topical, disease that is endemic in over 110 countries and affects millions of people every year.
 
 Cases of Dengue (Past 3 Months)
-![](readme/Screen%20Shot%202019-02-05%20at%209.44.30%20AM%20(2).png)
+<ceneter><img src="/img/Screen Shot 2019-02-05 at 9.44.30 AM (2).png" alt="world cases - past 3 months"></center>
 Source: Driven Data, based on CDC reporting
 
 Malaria and other similar diseases that have largely been eradicated with in much of the first world are now back burner topics that find themselves much neglected within and without much of the medical community at large.
