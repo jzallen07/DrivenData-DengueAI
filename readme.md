@@ -1,4 +1,3 @@
-# Dengue AI readme.md
 # Project: Dengue AI 
 
 ## Table of contents:
