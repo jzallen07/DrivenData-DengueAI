@@ -16,14 +16,14 @@ Malaria and other similar diseases that have largely been eradicated with in muc
 
 Given the disease vector i.e. mosquitos dengue tends to present in an at least somewhat seasonal and weather related trend. As in with an increase in rainfall, heat, and humidity we would expect to see more mosquitos and thus more cases of dengue. 
 Trending rainfall and # of reported cases:
-![](readme/Average-rainfall-and-dengue-fever-notified-cases-per-month-Southern-State-of-Mato.png)
+<ceneter><img src="/img/Average-rainfall-and-dengue-fever-notified-cases-per-month-Southern-State-of-Mato.png" alt=""></center>
 Source: [Average rainfall and dengue fever notified cases per month, Southern… | Download Scientific Diagram](https://www.researchgate.net/figure/Average-rainfall-and-dengue-fever-notified-cases-per-month-Southern-State-of-Mato_fig4_316177451)
 
 So, on this basis, with the data from this project I hope to answer the following questions: 
 
 The Data:
 The data for this project is centered around two cities [San Juan, Puerto Rico](https://en.wikipedia.org/wiki/San_Juan,_Puerto_Rico) and [Iquitos, Peru](https://en.wikipedia.org/wiki/Iquitos). 
-![](readme/Screen%20Shot%202019-02-05%20at%209.26.47%20AM%20(2).png)
+<ceneter><img src="/img/Screen Shot 2019-02-05 at 9.24.52 AM (2).png" alt=""></center>
 
 The goal is to accurately predict the case load of Dengue (# of reported cases) in each location. **Side note**: reporting data for tropical diseases such as dengue, malaria, and chikungunya has historically been very….messy as can been seen ([here](https://www.biomedcentral.com/about/press-centre/science-press-releases/03-03-2016))([here](https://www.sciencedirect.com/science/article/pii/S0140673604174461)) and [here](https://www.who.int/neglected_diseases/Social_determinants_NTD.pdf). 
 
@@ -42,13 +42,13 @@ It would also be possible to treat each city as a categorical variable.  Especia
 Further, as we are dealing with data of several different scales and unit types it will be necessary to standardize the numerical data prior to training any form of linear based model.
 
 Looking at the distribution below we can see that the former discussion is strengthened by the fact that each cities data covers different time periods and with greatly differing volumes of reported cases. 
-![](readme/data_points_by_year.png)
+<ceneter><img src="/img/data_points_by_year.png" alt=""></center>
 
 Missing data:
 
 As can be seen below. There is a moderate degree of missing data in each of the cities. We will be accounting for this by forward filling the empty fields. I will avoid dropping the missing field as I do not wish to loose the associated data
 
 When we examine the reported cases at a weekly level it would appear that we can see the anticipated seasonal spikes (at least at a macro level) taking place in both San Juan and Iquitos . 
-![](readme/weekly_trend.png)
+<ceneter><img src="/img/weekly_trend.png" alt=""></center>
 
 Detailed discussion of the predictive modeling can be found in the notebooks found in this repository.
